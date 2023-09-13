@@ -6,3 +6,6 @@
 - HTML
 - CSS
 - JavaScript
+
+### Demo
+[Click](https://giorgib04.github.io/to-do-list-js/)
