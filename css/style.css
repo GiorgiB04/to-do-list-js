@@ -1,5 +1,5 @@
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: rgb(27 27 27 / 8%);
 }
 
@@ -50,15 +50,15 @@
 .form__button{
     border: none;
     font-size: 16px;
-    background: #FF4742;
+    background: teal;
     border-radius: 3px;
     color: white;
     cursor: pointer;
-    padding: 0 15px;
+    padding: 10px;
 }
 
 .form__button:hover {
-    background: #ff4842b6;
+    background: rgb(17, 168, 168);
 }
 
 .tasks {
@@ -72,21 +72,24 @@
     grid-template-columns: auto 1fr auto;
     grid-gap: 11px;
     align-items: center;
-    padding: 11px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
 }
 
 .tasks__item--checked {
  text-decoration: line-through;
 }
 
-.toggle__button {
-    min-width: 22px;
-    min-height: 22px;
+.task__button {
+    background-color: #1dbe1d;
+    color: white;
+    width: 30px;
+    height: 30px;
     border: none;
     cursor: pointer;
 }
 
-.toggle__button:hover {
+.task__button:hover {
     background: #2de62d;
 }
 
@@ -95,13 +98,14 @@
 }
 
 .remove__button {
-    background-color: #FF4742;
+    background-color: red;
+    color: white;
     border: none;
     cursor: pointer;
-    min-width: 22px;
-    min-height: 22px
+    min-width: 30px;
+    min-height: 30px
 }
 
 .remove__button:hover {
-    background-color: #f1807c;
+    background-color: rgba(246, 7, 7, 0.516);
 }
