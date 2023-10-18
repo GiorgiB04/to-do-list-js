@@ -69,7 +69,7 @@
 					});
 			});
 	};
-
+ 
 	const bindToggleDoneEvents = () => {
 
 			const toggleDoneButtons = document.querySelectorAll(".js-done");
