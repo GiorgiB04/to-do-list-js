@@ -1,0 +1,60 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons__button {
+    background: transparent;
+    color: teal;
+    border: none;
+    margin: 0 0 0 20px;
+    transition: color 0.3s;
+}
+
+.buttons__button:hover {
+    cursor: pointer;
+    color: rgb(4, 181, 181);
+}
+
+.buttons__button:disabled {
+    color: #ccc;
+}
+
+.task__button {
+    background-color: #1dbe1d;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.task__button:hover {
+    background: #2de62d;
+    transition: 0.3s;
+}
+
+.toggle__button--cheked {
+    background: #1dbe1d;
+}
+
+.remove__button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.remove__button:hover {
+    background-color: rgba(246, 7, 7, 0.516);
+}
+
+@media (max-width: 767px) {
+    .buttons__button {
+    flex-basis: 100%;
+    margin: 10px;
+    }
+}
