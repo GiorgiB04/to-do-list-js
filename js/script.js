@@ -12,7 +12,6 @@
 			content: "learn React",
 			done: false,
 		},
-
 ];
 
 	let hideDoneTasks = false;
