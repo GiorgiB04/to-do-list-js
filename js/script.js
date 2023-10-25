@@ -1,16 +1,16 @@
 {
 	let tasks = [
 		{
-				content: "learn Javascript",
-				done: true,
+			content: "learn Javascript",
+			done: true,
 		},
 		{
-				content: "learcn CSS",
-				done:  true,
+			content: "learcn CSS",
+			done:  true,
 		},
 		{
-				content: "learn React",
-				done: false,
+			content: "learn React",
+			done: false,
 		},
 
 ];
